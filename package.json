@@ -1,13 +1,13 @@
 {
-  "name": "autotask-backend-stable",
+  "name": "autotask-backend",
   "version": "1.0.0",
-  "description": "AutoTask Backend - Stable production-ready scaffold with CL Tech placeholders",
+  "description": "AutoTask backend server — AI automation, wallet, CL Tech integration.",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-},
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
@@ -23,8 +23,8 @@
     "speakeasy": "^2.0.0"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=18.0.0"
   },
-  "author": "AutoTask Founder",
+  "author": "CL Tech Founder",
   "license": "MIT"
 }
