@@ -2,7 +2,7 @@
   "name": "autotask-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": node
+  "main": "server.js"
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
